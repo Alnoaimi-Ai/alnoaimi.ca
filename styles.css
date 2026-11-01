@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="alnoaimi.ca — Developer-focused digital products, software solutions, and intelligent experiences."
+    />
+    <title>alnoaimi.ca | Developer-focused digital solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand" aria-label="alnoaimi.ca home">
+          <span class="brand-mark">A</span>
+          <span>alnoaimi.ca</span>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="button button-primary" href="#contact">Book a consult</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Developer-led digital solutions</p>
+            <h1>Build smarter products with a technical partner that ships.</h1>
+            <p class="lead">
+              alnoaimi.ca helps founders, teams, and businesses turn ideas into
+              clean, scalable digital experiences with strategy, development,
+              automation, and product thinking.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contact">Start a project</a>
+              <a class="button button-secondary" href="#services">View services</a>
+            </div>
+
+            <ul class="hero-stats" aria-label="Key strengths">
+              <li><strong>Web</strong><span>Design & build</span></li>
+              <li><strong>AI</strong><span>Assistants & workflows</span></li>
+              <li><strong>Apps</strong><span>Custom solutions</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-panel" aria-label="Developer dashboard preview">
+            <div class="panel-window">
+              <div class="window-bar">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="window-body">
+                <div class="code-block">
+                  <pre><code>const product = {
+  strategy: 'clear',
+  build: 'fast',
+  scale: 'smart'
+};
+
+function launch(plan) {
+  return plan.map(step => step + ' ✅');
+}</code></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Services</p>
+            <h2>What we build</h2>
+          </div>
+
+          <div class="card-grid">
+            <article class="card">
+              <span class="card-icon">01</span>
+              <h3>Website & Brand Experience</h3>
+              <p>
+                High-converting websites and digital experiences designed to look
+                polished, perform well, and communicate value clearly.
+              </p>
+            </article>
+
+            <article class="card">
+              <span class="card-icon">02</span>
+              <h3>Custom Web Applications</h3>
+              <p>
+                Business tools, dashboards, internal portals, and product
+                experiences tailored to your workflow and audience.
+              </p>
+            </article>
+
+            <article class="card">
+              <span class="card-icon">03</span>
+              <h3>Automation & AI</h3>
+              <p>
+                Intelligent workflows, assistant experiences, and automation that
+                reduce manual work and improve speed.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="section alt-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Process</p>
+            <h2>A clear path from idea to launch</h2>
+          </div>
+
+          <div class="steps">
+            <div class="step">
+              <span>01</span>
+              <h3>Discover</h3>
+              <p>Clarify the challenge, audience, goals, and technical constraints.</p>
+            </div>
+            <div class="step">
+              <span>02</span>
+              <h3>Design</h3>
+              <p>Define the product experience, structure, and user journey.</p>
+            </div>
+            <div class="step">
+              <span>03</span>
+              <h3>Build</h3>
+              <p>Develop the solution using clean, maintainable, scalable practices.</p>
+            </div>
+            <div class="step">
+              <span>04</span>
+              <h3>Ship</h3>
+              <p>Launch, test, refine, and support a reliable digital product.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about-grid">
+          <div>
+            <p class="eyebrow">About</p>
+            <h2>Built for people who want thoughtful execution.</h2>
+          </div>
+          <div>
+            <p>
+              alnoaimi.ca is focused on building useful digital experiences with
+              good engineering, strong communication, and a practical approach.
+              Whether you need a website, a product idea turned into a working
+              solution, or a smarter workflow, the goal is to create something
+              that genuinely supports your business.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something meaningful.</h2>
+        </div>
+
+        <div class="footer-actions">
+          <a href="mailto:hello@alnoaimi.ca" class="button button-primary">hello@alnoaimi.ca</a>
+          <a href="https://github.com/Alnoaimi-Ai" class="button button-secondary" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> alnoaimi.ca</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ "},{
